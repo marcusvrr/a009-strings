@@ -12,4 +12,13 @@ const frase3 = 'Jorge tem uma casa verde e com portão azul, com os dizeres: "BO
 const frase4 = 'mas não deixe o gato sair"'
 console.log(frase3,frase4.toUpperCase())
 
+/*solução da juliana
+const frase5 = frase2,replace("mas não deixe o gato sair","MAS NÃO DEIXE O GATO SAIR")*/
+
+/*SOLUÇÃO RODRIGO MONITOR
+const frase5 = frase2.replace("mas não deixe o gato sair", `${mas não deixe o gato sair.toUpperCase()}`) // não funcionou pra mim.
+const frase = `Jorge tem uma casa verde e com portão azul, com os dizeres: "BOAS VINDAS, mas não deixe o gato sair"`*/
+
+console.log(frase2.replace("mas não deixe o gato sair", `${"mas não deixe o gato sair".toUpperCase()}`)) //essa funcionou pra mim.
+
 

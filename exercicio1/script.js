@@ -15,3 +15,12 @@ console.log(`Estas são as comidas favoritas de ${nome} \n- ${comida1} \n- ${com
 Adicionar um  `\n` na string coloca uma **quebra de linha** no texto.
 
 </details>*/
+
+/*codigo do bruno hammes usando outra forma de usar prompt:
+let suaComida = 'Digite sua primeira comida favorita'
+const nome = prompt("Digite seu nome")
+const comida1 = prompt(suaComida)
+const comida2 = prompt(suaComida.replace("primeira", "segunda"))
+const comida3 = prompt(suaComida.replace("primeira", "terceira"))
+const mensagem = `Estas são as comidas favoritas de ${nome} \n- ${comida1} \n- ${comida2} \n- ${comida3}`
+console.log(mensagem) */
